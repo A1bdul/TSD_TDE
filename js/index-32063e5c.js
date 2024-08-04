@@ -10569,11 +10569,23 @@ const Ra = $3({
         me(
             "p",
             { class: "broke-text text-center px-4 py-4 lg:px-72 lg:py-8" },
-            "It's that time of year where there crypto markets are pumping and all the coins you saw bottomed out are now mooning. All you had to do was fucking accumulate coins like dog wif hat and you would have been rich ... New age rich ... But here you are. Another shit coin. Another brilliant idea. What will you do??",
-            -1
-        )
-    ),
-    Ba = [Da, Fa];
+            "It's that time of year where everythinh is dipping and you aren't taking the chance to accumulate?? ",
+            -1,
+        
+    )),
+    miA = Q4(() => me(
+            "p",
+                { class: "broke-text text-center px-4 py-4 lg:px-72 lg:py-8" },
+                "NGMI",
+            
+    )),
+    miB = Q4(() => me(
+        "p",
+            { class: "broke-text text-center px-4 py-4 lg:px-72 lg:py-8" },
+            "Type Of Vibe",
+        
+)),
+    Ba = [Da, Fa, miA, miB];
 function La(r, e, t, n, i, s) {
     return p1(), Y1("section", Ia, Ba, 512);
 }
