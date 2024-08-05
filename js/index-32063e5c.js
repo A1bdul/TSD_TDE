@@ -10569,7 +10569,7 @@ const Ra = $3({
         me(
             "p",
             { class: "broke-text text-center px-4 py-4 lg:px-72 lg:py-8" },
-            "It's that time of year where everythinh is dipping and you aren't taking the chance to accumulate?? ",
+            "It's that time of year where there crypto markets are pumping and all the cans you saw bottomed out are now mooning. All you had to to was fucking accurate coins like dog wif hat and you would have been rich - New age rich - But here you are. Another shit can Another brilliant idea. What will you do?? ",
             -1,
         
     )),
