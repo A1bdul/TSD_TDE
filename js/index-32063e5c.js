@@ -10585,7 +10585,7 @@ const Ra = $3({
             "Type Of Vibe",
         
 )),
-    Ba = [Da, Fa, miA, miB];
+    Ba = [Da, Fa];
 function La(r, e, t, n, i, s) {
     return p1(), Y1("section", Ia, Ba, 512);
 }
