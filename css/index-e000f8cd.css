@@ -4,5 +4,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-} 
-*/
+} */
+
+.responsive-image {
+    height: 15.5rem;
+    width: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Scale the image to maintain aspect ratio */
+}
