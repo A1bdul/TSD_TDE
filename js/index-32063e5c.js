@@ -7836,8 +7836,12 @@ const sa =
         )
     ),
     ca = { class: "hero-content flex items-center justify-center" },
-    ua = { class: "flex flex-col items-center" },
-    fa = m6(() => me("h1", {
+    ua = { class: "flex flex-col items-center"},
+    fa = m6(() => me(
+        "img", {
+            src: "https://ucarecdn.com/0b2d929f-7b0a-44be-8007-c108a7cd9cdc/photo_20240812_224015.jpg", class: "responsive-image"
+        },
+        "h1", {
         class: "broke-text-logo", style: "font-size:5rem;color:red;"
     }, "President Wojak  ", -1)),
     hey = m6(() => me("h3", { class: "broke-text-logo" }, "Contract :   ", -1)),
@@ -7860,24 +7864,16 @@ function _a(r, e, t, n, i, s) {
                 me("div", ua, [
                     fa,
                     me("div", ha, [
-                        me(
-                            "button",
-                            {
-                                onClick:
-                                    e[0] ||
-                                    (e[0] = (o) => r.navigate("#ray")),
-                            },
-                            "Buy"
-                        ),
-                        me(
-                            "button",
-                            {
-                                onClick:
-                                    e[1] ||
-                                    (e[1] = (o) => r.navigate("#dex")),
-                            },
-                            "Chart"
-                        ),
+                        
+                        // me(
+                        //     "button",
+                        //     {
+                        //         onClick:
+                        //             e[1] ||
+                        //             (e[1] = (o) => r.navigate("#dex")),
+                        //     },
+                        //     "Chart"
+                        // ),
                         me(
                             "i",
                             {
@@ -7896,6 +7892,17 @@ function _a(r, e, t, n, i, s) {
                             },
                             ""
                         ),
+                        me(
+                            "img",
+                            {
+                                 src: "https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png", width:"55", style:"margin-left:3rem",
+                                onClick:
+                                    e[3] ||
+                                    (e[3] = (o) => r.navigate("")),
+                            },
+                            ""
+                        ),
+                        
                         me(
                             "button",
                             {
