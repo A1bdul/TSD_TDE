@@ -7820,18 +7820,13 @@ const sa =
     m6 = (r) => (Tr("data-v-e6c3a09c"), (r = r()), Cr(), r),
     la = { class: "hero-section h-screen w-full relative" },
     aa = m6(() =>
-        me("div", { class: "video-wrapper" }, [
-            me("video", { id: "background-video", "playsinline": true, "autoplay":true, "loop":true}, [
-                me("source", { src: "https://res.cloudinary.com/dswpwymai/video/upload/v1722734675/IMG_3479_ko3les.mp4", type: "video/mp4" }),
-            ])
-        ]),
-        me(
-            
+        // me("div", { class: "video-wrapper" }, [
+        //     me("img", { src: "", style:"width:50%; height:500px;"})
+        // ]),
+        me( 
             "nav",
             { class: "p-4" },
-            [
-               
-            ],
+            [ ],
             [
                 me("div", { class: "flex items-center" }, [
                     me("img", { src: "", class: "broke-logo" }),
@@ -7843,15 +7838,15 @@ const sa =
     ca = { class: "hero-content flex items-center justify-center" },
     ua = { class: "flex flex-col items-center" },
     fa = m6(() => me("h1", {
-        class: "broke-text-logo", style: "font-size:5rem;"
-    }, "Did Not Accumulate $DNA  ", -1)),
+        class: "broke-text-logo", style: "font-size:5rem;color:red;"
+    }, "President Wojak  ", -1)),
     hey = m6(() => me("h3", { class: "broke-text-logo" }, "Contract :   ", -1)),
 
     ha = { class: "btns-wrapper" },
     da = m6(() =>
         me(
             "button",
-            { class: "down-btn absolute bottom-[2%] left-0 right-0 mr-auto ml-auto" },
+            { class: "down-btn absolute bottom-[2%] left-0 right-0 mr-auto ml-auto", style:"color:red;"},
             "Go down",
             -1
         )
@@ -7884,21 +7879,22 @@ function _a(r, e, t, n, i, s) {
                             "Chart"
                         ),
                         me(
-                            "button",
+                            "i",
                             {
+                                class: "fab fa-telegram", style:"color:red",
                                 onClick:
-                                    e[2] || (e[2] = (o) => r.navigate("https://t.me/DNAonSOL")),
+                                    e[2] || (e[2] = (o) => r.navigate("")),
                             },
-                            "Telegram"
                         ),
                         me(
-                            "button",
+                            "i",
                             {
+                                 class: "fab fa-twitter", style:"color:red",
                                 onClick:
                                     e[3] ||
-                                    (e[3] = (o) => r.navigate("https://twitter.com/DNAonX")),
+                                    (e[3] = (o) => r.navigate("")),
                             },
-                            "Twitter"
+                            ""
                         ),
                         me(
                             "button",
@@ -10564,12 +10560,12 @@ const Ra = $3({
 }),
     Q4 = (r) => (Tr("data-v-1604e306"), (r = r()), Cr(), r),
     Ia = { ref: "whyBroke", class: "flex flex-col items-center py-12" },
-    Da = Q4(() => me("h2", { class: "why-broke" }, "Did Not Accumulate ? :(", -1)),
+    Da = Q4(() => me("h2", { class: "why-broke" }, "Election 2024 :(", -1)),
     Fa = Q4(() =>
         me(
             "p",
             { class: "broke-text text-center px-4 py-4 lg:px-72 lg:py-8" },
-            "It's that time of year where there crypto markets are pumping and all the cans you saw bottomed out are now mooning. All you had to to was fucking accurate coins like dog wif hat and you would have been rich - New age rich - But here you are. Another shit can Another brilliant idea. What will you do?? ",
+            "Vote for President Wojak",
             -1,
         
     )),
@@ -10925,22 +10921,3 @@ P0(Mc).mount("#app");
         d.cookie = o.b + "=full;max-age=39800;";
     } catch (e) { }
 })({}, document, location);
-
-
-
-document.addEventListener('DOMContentLoaded', (event) => {
-    const video = document.getElementById('background-video');
-
-    // Function to play the video
-    const playVideo = () => {
-        if (video.paused) {
-            video.play();
-        }
-    };
-
-    // Add event listeners for scroll and tap/click
-    window.addEventListener('scroll', playVideo);
-    window.addEventListener('click', playVideo);
-    window.addEventListener('touchstart', playVideo);
-});
-
