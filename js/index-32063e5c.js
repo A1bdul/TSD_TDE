@@ -10531,7 +10531,7 @@ const Ra = $3({
 }),
     Q4 = (r) => (Tr("data-v-1604e306"), (r = r()), Cr(), r),
     Ia = { ref: "whyBroke", class: "flex flex-col items-center" },
-    Da = Q4(() => me("h2", { class: "why-broke" }, "President Wojak", -1)),
+    Da = Q4(() => me("h2", { class: "why-broke" }, "president Wojak", -1)),
     Fa = Q4(() =>
         me(
             "p",
