@@ -7880,7 +7880,7 @@ function _a(r, e, t, n, i, s) {
                         me("i", {
                             class: "fab fa-twitter",
                             style: "color: red; font-size: 40px; cursor: pointer;",
-                            onClick: e[3] || (e[3] = (o) => r.navigate("https://twitter.com/presidentwojak"))
+                            onClick: e[1] || (e[1] = (o) => r.navigate("https://x.com/presidentwojak?s=1"))
                         })
                         
                     ]),
