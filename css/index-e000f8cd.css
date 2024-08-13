@@ -5,7 +5,9 @@
     background-repeat: no-repeat;
     background-size: contain;
 } */
-
+body, html{
+    background-color: #fff;
+}
 .responsive-image {
     height: 15.5rem;
     width: auto; /* Maintain aspect ratio */
