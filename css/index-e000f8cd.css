@@ -8,6 +8,9 @@
 body, html{
     background-color: #fff;
 }
+.ca{
+    font-family:house;
+}
 @media only screen and (max-width: 480px) {
     /* CSS rules for smartphones */
     .why-broke{
