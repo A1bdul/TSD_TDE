@@ -7886,7 +7886,7 @@ function _a(r, e, t, n, i, s) {
                     ]),
                 ]),
             ]),
-            me("center", {}, "CA: xx"),
+            me("center", {class: "ca"}, "CA: xx"),
             da,
         ])
     );
