@@ -10523,23 +10523,14 @@ const Ra = $3({
         const r = dn();
         return (
             d3(() => {
-                let e = Ut.timeline({
-                    scrollTrigger: { trigger: r.value, start: "top center" },
-                });
-                e.fromTo(".why-broke", { opacity: 0, x: -50 }, { opacity: 1, x: 0 }),
-                    e.fromTo(
-                        ".broke-text",
-                        { opacity: 0, x: 50 },
-                        { opacity: 1, x: 0 },
-                        "<"
-                    );
+                
             }),
             { whyBroke: r }
         );
     },
 }),
     Q4 = (r) => (Tr("data-v-1604e306"), (r = r()), Cr(), r),
-    Ia = { ref: "whyBroke", class: "flex flex-col items-center py-12" },
+    Ia = { ref: "whyBroke", class: "flex flex-col items-center" },
     Da = Q4(() => me("h2", { class: "why-broke" }, "President Wojak", -1)),
     Fa = Q4(() =>
         me(
