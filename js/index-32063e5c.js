@@ -7818,7 +7818,7 @@ const sa =
         ),
     }),
     m6 = (r) => (Tr("data-v-e6c3a09c"), (r = r()), Cr(), r),
-    la = { class: "hero-section h-screen w-full relative" },
+    la = { class: "hero-section w-full relative", style:"height:70vh;"},
     aa = m6(() =>
         // me("div", { class: "video-wrapper" }, [
         //     me("img", { src: "", style:"width:50%; height:500px;"})
