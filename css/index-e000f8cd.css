@@ -8,6 +8,12 @@
 body, html{
     background-color: #fff;
 }
+@media only screen and (max-width: 480px) {
+    /* CSS rules for smartphones */
+    .why-broke{
+        font-size: 15rem;
+    }
+}
 .responsive-image {
     height: 15.5rem;
     width: auto; /* Maintain aspect ratio */
