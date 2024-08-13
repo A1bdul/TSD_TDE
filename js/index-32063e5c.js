@@ -7839,7 +7839,7 @@ const sa =
     ua = { class: "flex flex-col items-center"},
     fa = m6(() => me(
         "img", {
-            src: "https://ucarecdn.com/9ebc0520-a6d3-48fe-9828-8cb70d0bf319/photo_20240813_003604.jpg", class: "responsive-image"
+            src: "https://ucarecdn.com/9ebc0520-a6d3-48fe-9828-8cb70d0bf319/photo_20240813_003604.jpg", class: "left-0 right-0 mr-auto ml-auto responsive-image"
         },
         "h1", {
         class: "broke-text-logo", style: "font-size:5rem;color:red;"
@@ -7895,7 +7895,7 @@ function _a(r, e, t, n, i, s) {
                         me(
                             "img",
                             {
-                                 src: "https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png", width:"55", style:"margin-left:3rem",
+                                 src: "https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png", width:"55", class:"left-0 right-0 mr-auto ml-auto", style: "margin-left:2rem",
                                 onClick:
                                     e[3] ||
                                     (e[3] = (o) => r.navigate("")),
@@ -7903,13 +7903,6 @@ function _a(r, e, t, n, i, s) {
                             ""
                         ),
                         
-                        me(
-                            "button",
-                            {
-                                onClick: e[4] || (e[4] = (o) => r.navigate("")),
-                            },
-                            ""
-                        ),
                     ]),
                 ]),
             ]),
@@ -10567,7 +10560,7 @@ const Ra = $3({
 }),
     Q4 = (r) => (Tr("data-v-1604e306"), (r = r()), Cr(), r),
     Ia = { ref: "whyBroke", class: "flex flex-col items-center py-12" },
-    Da = Q4(() => me("h2", { class: "why-broke" }, "President Wojak :)", -1)),
+    Da = Q4(() => me("h2", { class: "why-broke" }, "President Wojak", -1)),
     Fa = Q4(() =>
         me(
             "p",
