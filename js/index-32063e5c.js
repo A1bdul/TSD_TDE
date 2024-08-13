@@ -7843,7 +7843,7 @@ const sa =
         },
         "h1", {
         class: "broke-text-logo", style: "font-size:5rem;color:red;"
-    }, "president Wojak  ", -1)),
+    }, "president pojak  ", -1)),
     hey = m6(() => me("h3", { class: "broke-text-logo" }, "Contract :   ", -1)),
 
     ha = { class: "btns-wrapper" },
@@ -10531,12 +10531,12 @@ const Ra = $3({
 }),
     Q4 = (r) => (Tr("data-v-1604e306"), (r = r()), Cr(), r),
     Ia = { ref: "whyBroke", class: "flex flex-col items-center" },
-    Da = Q4(() => me("h2", { class: "why-broke" }, "president Wojak", -1)),
+    Da = Q4(() => me("h2", { class: "why-broke" }, "president pojak", -1)),
     Fa = Q4(() =>
         me(
             "p",
             { class: "broke-text text-center px-4 py-4 lg:px-72 lg:py-8" },
-            "vote 4 Wojak 2024",
+            "vote 4 pojak 2024",
             -1,
         
     )),
