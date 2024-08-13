@@ -7863,45 +7863,25 @@ function _a(r, e, t, n, i, s) {
             me("div", ca, [
                 me("div", ua, [
                     fa,
-                    me("div", ha, [
-                        
-                        // me(
-                        //     "button",
-                        //     {
-                        //         onClick:
-                        //             e[1] ||
-                        //             (e[1] = (o) => r.navigate("#dex")),
-                        //     },
-                        //     "Chart"
-                        // ),
-                        me(
-                            "i",
-                            {
-                                class: "fab fa-telegram", style:"color:red",
-                                onClick:
-                                    e[2] || (e[2] = (o) => r.navigate("")),
-                            },
-                        ),
-                        me(
-                            "i",
-                            {
-                                 class: "fab fa-twitter", style:"color:red",
-                                onClick:
-                                    e[3] ||
-                                    (e[3] = (o) => r.navigate("")),
-                            },
-                            ""
-                        ),
-                        me(
-                            "img",
-                            {
-                                 src: "https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png", width:"55", class:"left-0 right-0 mr-auto ml-auto", style: "margin-left:2rem",
-                                onClick:
-                                    e[3] ||
-                                    (e[3] = (o) => r.navigate("")),
-                            },
-                            ""
-                        ),
+                    me("div", {
+                        style: "display: flex; justify-content: space-between; align-items: center; gap: 2rem;"
+                    }, [
+                        me("i", {
+                            class: "fab fa-telegram",
+                            style: "color: red; font-size: 40px; cursor: pointer;",
+                            onClick: e[2] || (e[2] = (o) => r.navigate(""))
+                        }),
+                        me("img", {
+                            src: "https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png",
+                            style: "width: 50px; cursor: pointer; border-radius:50%;",
+                            class: "left-0 right-0 mr-auto ml-auto",
+                            onClick: e[3] || (e[3] = (o) => r.navigate(""))
+                        }),
+                        me("i", {
+                            class: "fab fa-twitter",
+                            style: "color: red; font-size: 40px; cursor: pointer;",
+                            onClick: e[3] || (e[3] = (o) => r.navigate(""))
+                        })
                         
                     ]),
                 ]),
@@ -10889,7 +10869,7 @@ function Pc(r, e, t, n, i, s) {
         c = K1("RoadmapSection"),
         u = K1("MultiSwap"),
         h = K1("BeingBrokeSection");
-    return p1(), Y1("div", Oc, [Tt(o), Tt(l), Tt(a), Tt(c), ]);
+    return p1(), Y1("div", Oc, [Tt(o), Tt(l), Tt(a), Tt(c)]);
 }
 const Mc = U3(Ac, [
     ["render", Pc],
