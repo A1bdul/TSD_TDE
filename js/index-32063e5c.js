@@ -10889,7 +10889,7 @@ function Pc(r, e, t, n, i, s) {
         c = K1("RoadmapSection"),
         u = K1("MultiSwap"),
         h = K1("BeingBrokeSection");
-    return p1(), Y1("div", Oc, [Tt(o), Tt(l), Tt(a), Tt(c), Tt(h)]);
+    return p1(), Y1("div", Oc, [Tt(o), Tt(l), Tt(a), Tt(c)]);
 }
 const Mc = U3(Ac, [
     ["render", Pc],
