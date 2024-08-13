@@ -7843,7 +7843,7 @@ const sa =
         },
         "h1", {
         class: "broke-text-logo", style: "font-size:5rem;color:red;"
-    }, "President Wojak  ", -1)),
+    }, "president Wojak  ", -1)),
     hey = m6(() => me("h3", { class: "broke-text-logo" }, "Contract :   ", -1)),
 
     ha = { class: "btns-wrapper" },
