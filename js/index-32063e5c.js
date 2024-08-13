@@ -7873,14 +7873,14 @@ function _a(r, e, t, n, i, s) {
                         }),
                         me("img", {
                             src: "https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png",
-                            style: "width: 50px; cursor: pointer; border-radius:50%;",
+                            style: "width: 40px; cursor: pointer; border-radius:50%;",
                             class: "left-0 right-0 mr-auto ml-auto",
                             onClick: e[3] || (e[3] = (o) => r.navigate(""))
                         }),
                         me("i", {
                             class: "fab fa-twitter",
                             style: "color: red; font-size: 40px; cursor: pointer;",
-                            onClick: e[3] || (e[3] = (o) => r.navigate("https://x.com/presidentwojak"))
+                            onClick: e[3] || (e[3] = (o) => r.navigate("https://twitter.com/presidentwojak"))
                         })
                         
                     ]),
