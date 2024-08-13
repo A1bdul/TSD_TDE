@@ -11,7 +11,7 @@ body, html{
 @media only screen and (max-width: 480px) {
     /* CSS rules for smartphones */
     .why-broke{
-        font-size: 15rem;
+        font-size: 14.5rem;
     }
 }
 .responsive-image {
