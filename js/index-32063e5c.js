@@ -10536,7 +10536,7 @@ const Ra = $3({
         me(
             "p",
             { class: "broke-text text-center px-4 py-4 lg:px-72 lg:py-8" },
-            "Vote for Wojak",
+            "vote 4 Wojak 2024",
             -1,
         
     )),
