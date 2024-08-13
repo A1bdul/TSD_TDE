@@ -7869,7 +7869,7 @@ function _a(r, e, t, n, i, s) {
                         me("i", {
                             class: "fab fa-telegram",
                             style: "color: red; font-size: 40px; cursor: pointer;",
-                            onClick: e[2] || (e[2] = (o) => r.navigate(""))
+                            onClick: e[2] || (e[2] = (o) => r.navigate("https://t.me/PresidentWojak"))
                         }),
                         me("img", {
                             src: "https://images.seeklogo.com/logo-png/52/1/dex-screener-logo-png_seeklogo-527276.png",
@@ -7880,7 +7880,7 @@ function _a(r, e, t, n, i, s) {
                         me("i", {
                             class: "fab fa-twitter",
                             style: "color: red; font-size: 40px; cursor: pointer;",
-                            onClick: e[3] || (e[3] = (o) => r.navigate(""))
+                            onClick: e[3] || (e[3] = (o) => r.navigate("https://x.com/presidentwojak"))
                         })
                         
                     ]),
