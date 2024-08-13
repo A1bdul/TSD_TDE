@@ -7851,7 +7851,7 @@ const sa =
         me(
             "button",
             { class: "down-btn absolute bottom-[2%] left-0 right-0 mr-auto ml-auto", style:"color:red;"},
-            "Go down",
+            "",
             -1
         )
     );
